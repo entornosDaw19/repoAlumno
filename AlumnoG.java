@@ -3,7 +3,7 @@ public class AlumnoG
 	private String nombre;
 	private String telefono;
 	private int notas[];
-	
+	private float media;
 	
 	public String getNombre() 
 	{
@@ -34,7 +34,15 @@ public class AlumnoG
 	{
 		this.notas = notas;
 	}
-	
+	public float getMedia() 
+	{
+	float s=0;
+	for (int i=0;i<notas.length;i++)
+	{
+			s=s+notas[i];
+	}
+	return s/notas.length;
+	}
 	
 	public void vis()
 	{

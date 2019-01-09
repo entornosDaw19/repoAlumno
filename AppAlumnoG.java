@@ -26,7 +26,8 @@ public class AppAlumnoG
 	al.setNotas(n);
         al.vis();
         System.out.println("Los datos del alumno son");
-        System.out.println(al.toString());
+        System.out.println(al.toString());	
+        System.out.println("La media de las notas es "+ al.getMedia());
     }
 }
 
