@@ -2,7 +2,6 @@ public class AlumnoG
 {
 	private String nombre;
 	private String telefono;
-	//private int edad;
 	private int notas[];
 	
 	
@@ -25,17 +24,7 @@ public class AlumnoG
 	{
 		telefono = tel;
 	}
-	/*
-	public int getEdad() 
-	{
-		return edad;
-	}
 	
-	public void setEdad(int edad) 
-	{
-		this.edad = edad;
-	}
-	*/
 	public int[] getNotas() 
 	{
 		return notas;
