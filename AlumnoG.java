@@ -2,7 +2,7 @@ public class AlumnoG
 {
 	private String nombre;
 	private String telefono;
-	private int edad;
+	//private int edad;
 	private int notas[];
 	
 	
@@ -25,7 +25,7 @@ public class AlumnoG
 	{
 		telefono = tel;
 	}
-	
+	/*
 	public int getEdad() 
 	{
 		return edad;
@@ -35,7 +35,7 @@ public class AlumnoG
 	{
 		this.edad = edad;
 	}
-	
+	*/
 	public int[] getNotas() 
 	{
 		return notas;
@@ -49,7 +49,7 @@ public class AlumnoG
 	
 	public void vis()
 	{
-		System.out.println("Nombre: "+ nombre+" Edad: "+edad+" Telefono: "+telefono);
+		System.out.println("Nombre: "+ nombre+" Telefono: "+telefono);
 		System.out.println("Las notas son ");
 		for (int i=0;i<notas.length;i++)
 		{
@@ -60,7 +60,7 @@ public class AlumnoG
 	public String toString ()
 	{
 	String cadena="",subcadena="";
-		cadena="nombre= "+nombre+" Telefono "+telefono+ " Edad "+edad+" notas: ";
+		cadena="nombre= "+nombre+" Telefono "+telefono+" notas: ";
 		for (int i=0;i<notas.length;i++)
 		{
 			subcadena+=notas[i]+" ";

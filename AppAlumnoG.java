@@ -9,7 +9,7 @@ public class AppAlumnoG
     {
     
         String cad;
-	int edad;
+	//int edad;
 	int n[]=new int[3];
 	
         AlumnoG al=new AlumnoG(); 
@@ -19,10 +19,10 @@ public class AppAlumnoG
 	System.out.println("Introduce el telefono:");
 	cad=teclado.nextLine();
         al.setTelefono(cad);
-	System.out.println("Introduce la edad:");
+	/* System.out.println("Introduce la edad:");
 	edad=teclado.nextInt();
         al.setEdad(edad);
-
+	*/
 	for (int i=0;i<n.length;i++)
 		{
 			n[i]=(int)(Math.random()*10);
