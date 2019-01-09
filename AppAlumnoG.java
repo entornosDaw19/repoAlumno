@@ -1,6 +1,6 @@
 import java.util.*;
 
-//Prueba de la clase AlumnoG
+//Prueba de la clase AlumnoG desde github
 public class AppAlumnoG
 {
     static Scanner teclado=new Scanner(System.in);
@@ -19,10 +19,7 @@ public class AppAlumnoG
 	System.out.println("Introduce el telefono:");
 	cad=teclado.nextLine();
         al.setTelefono(cad);
-	/* System.out.println("Introduce la edad:");
-	edad=teclado.nextInt();
-        al.setEdad(edad);
-	*/
+	
 	for (int i=0;i<n.length;i++)
 		{
 			n[i]=(int)(Math.random()*10);
