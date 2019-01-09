@@ -9,7 +9,6 @@ public class AppAlumnoG
     {
     
         String cad;
-	//int edad;
 	int n[]=new int[3];
 	
         AlumnoG al=new AlumnoG(); 
