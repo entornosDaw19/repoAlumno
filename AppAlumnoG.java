@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class mainAlumnoG
+public class AppAlumnoG
 {
     static Scanner teclado=new Scanner(System.in);
     
